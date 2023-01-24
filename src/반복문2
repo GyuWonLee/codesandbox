@@ -1,0 +1,11 @@
+let person = {
+  name: "이정환",
+  age: 25,
+  tall: 175
+};
+
+const personValues = Object.values(person);
+
+for (let i = 0; i < personValues.length; i++) {
+  console.log(personValues[i]);
+}
